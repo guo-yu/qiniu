@@ -10,7 +10,7 @@
 
   // inject as a angular module
   if (angular) {
-    angular.module('upyun', [
+    angular.module('qiniu', [
       'base64',
       'angular-md5'
     ]).factory('$qiniu', function($base64, md5) {
@@ -69,7 +69,7 @@
       new FormData();
 
     var policy = self.base64.encode(JSON.stringify(self.configs));
-    var apiendpoint = self.endpoint || 'http://v0.api.upyun.com/' + self.configs.bucket;
+    var apiendpoint = self.endpoint || 'http://upload.qiniu.com/' + self.configs.bucket;
     var imageHost = self.host || 'http://' + self.configs.bucket + '.b0.upaiyun.com';
 
     // by default, if not upload files by form,

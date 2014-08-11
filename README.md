@@ -1,4 +1,4 @@
-## qiniu ![npm](https://badge.fury.io/js/qiniu-form.png)
+## qiniu ![release](http://img.shields.io/github/release/turingou/qiniu.svg)&nbsp;![npm](http://img.shields.io/npm/v/qiniu-form-upload.svg)
 
 a pure front-end qiniu form upload service, supports both native js and angular.js
 
@@ -13,7 +13,7 @@ $ bower install qiniu --save
 using NPM instead of bower:
 
 ```
-$ npm install qiniu-form --save
+$ npm install qiniu-form-upload --save
 ```
 
 ### Example

@@ -1,5 +1,5 @@
 {
-  "name": "qiniu-form",
+  "name": "qiniu-form-upload",
   "version": "0.1.0",
   "description": "a pure front-end qiniu form upload service, supports both native js and angular.js",
   "main": "src/qiniu.js",

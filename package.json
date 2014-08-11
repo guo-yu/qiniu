@@ -1,0 +1,34 @@
+{
+  "name": "qiniu-form",
+  "version": "0.1.0",
+  "description": "a pure front-end qiniu form upload service, supports both native js and angular.js",
+  "main": "src/qiniu.js",
+  "scripts": {
+    "serve": "node_modules/.bin/serve .",
+    "dev": "npm run serve",
+    "start": "npm run dev",
+    "build": "node_modules/.bin/uglifyjs src/qiniu.js -o dist/qiniu.min.js --source-map dist/qiniu.min.js.map --source-map-url qiniu.min.js.map",
+    "example": "open examples/native.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/qiniu.git"
+  },
+  "keywords": [
+    "qiniu",
+    "form",
+    "upload",
+    "angular",
+    "angular.js"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/qiniu/issues"
+  },
+  "homepage": "https://github.com/turingou/qiniu",
+  "devDependencies": {
+    "serve": "~1.4.0",
+    "uglify-js": "^2.4.15"
+  }
+}
